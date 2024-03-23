@@ -43,7 +43,7 @@
 }
 
 .flexRow--deals {
-  background-color: #0F3E99;
+  background-color: #0f3e99;
   padding: 14px 0px;
 }
 
@@ -95,4 +95,14 @@
 
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
+}
+
+/* NOTIFICATION BAR */
+
+.flexRow--notification {
+  background: #f1a1a3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
 }

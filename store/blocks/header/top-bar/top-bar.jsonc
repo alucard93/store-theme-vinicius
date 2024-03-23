@@ -1,0 +1,49 @@
+{
+  "slider-layout#notification-bar": {
+    "title": "Configurações do Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 5000,
+        "stopOnHover": true
+      },
+      "blockClass": "notification"
+    },
+    "children": [
+      "rich-text#notification-bar-1",
+      "rich-text#notification-bar-2",
+      "rich-text#notification-bar-3"
+    ]
+  },
+
+  "rich-text#notification-bar-1": {
+    "title": "Texto Top Bar 01",
+    "props": {
+      "blockClass": "notification-bar",
+      "text": "Ganhe 15% OFF válido para as 100 primeiras compras! Use o cupom **SUMMER100**"
+    }
+  },
+
+  "rich-text#notification-bar-2": {
+    "title": "Texto Top Bar 02",
+    "props": {
+      "blockClass": "notification-bar",
+      "text": "Ganhe 10% OFF válido para as 150 primeiras compras! Use o cupom **SUMMER100**"
+    }
+  },
+
+  "rich-text#notification-bar-3": {
+    "title": "Texto Top Bar 03",
+    "props": {
+      "blockClass": "notification-bar",
+      "text": "Ganhe 5% OFF válido para as 250 primeiras compras! Use o cupom **SUMMER100**"
+    }
+  }
+}

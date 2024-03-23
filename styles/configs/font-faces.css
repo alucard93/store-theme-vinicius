@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Amiko";
+  src: local("Amiko-Regular"),
+    url("assets/fonts/Amiko-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amiko";
+  src: local("Amiko-Bold"), url("assets/fonts/Amiko-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amiko";
+  src: local("Amiko-SemiBold"),
+    url("assets/fonts/Amiko-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
