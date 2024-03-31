@@ -20,6 +20,7 @@
 
   "stack-layout#prodsum": {
     "children": [
+      "add-to-list-btn",
       "product-summary-image#shelf",
       "vtex.product-highlights@2.x:product-highlights#collection",
       "modal-trigger#quickview" // Check quickview.jsonc
@@ -81,9 +82,7 @@
   },
   "product-price-savings#summary": {
     "props": {
-      "markers": [
-        "discount"
-      ],
+      "markers": ["discount"],
       "blockClass": "summary"
     }
   }

@@ -68,8 +68,15 @@
 
   "login": {
     "props": {
+      "iconLabel": "Entre ou cadastre-se",
       "showIconProfile": true,
-      "iconLabel": "Entre ou cadastre-se"
+      "optionsTitle": "Acesse sua conta",
+      "emailAndPasswordTitle": "Login",
+      "accessCodeTitle": "Receba sua chave por e-mail",
+      "emailPlaceholder": "E-mail",
+      "passwordPlaceholder": "Senha",
+      "accessCodePlaceholder": "Insira o código de acesso",
+      "showPasswordVerificationIntoTooltip": true
     }
   }
 }
