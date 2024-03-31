@@ -1,0 +1,19 @@
+/* MENU TOPBAR */
+
+.menuContainer--topbar {
+  gap: 16px;
+}
+
+.styledLinkContainer--topbar {
+  margin: 0;
+  padding: 0;
+}
+
+.styledLink--topbar {
+  color: #4f4242;
+  font-family: Amiko;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

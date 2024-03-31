@@ -1,0 +1,27 @@
+.label {
+  color: #4f4242;
+  font-family: Amiko;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: none;
+  padding-top: 3px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--topbar) .profileIcon {
+  width: 19px;
+  height: 19px;
+  overflow: visible;
+  margin-bottom: 2px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--topbar) :global(.vtex-button) {
+  min-height: 30px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--topbar) :global(.vtex-button__label) {
+  min-height: 30px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}

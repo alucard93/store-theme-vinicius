@@ -106,3 +106,18 @@
   justify-content: center;
   height: 35px;
 }
+
+/* MENU TOP BAR*/
+
+.flexRow--topbar {
+  width: 100%;
+  max-width: 1285px;
+  margin: 0 auto;
+  height: 30px;
+}
+
+.flexRowContent--topbar {
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+}

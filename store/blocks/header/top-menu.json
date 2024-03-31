@@ -1,43 +1,75 @@
 {
-  "vtex.menu@2.x:menu#websites": {
+  "flex-layout.row#2-desktop": {
+    "title": "Seção ",
+    "props": {
+      "blockClass": "topbar",
+      "colSizing": "auto"
+    },
     "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
+      "flex-layout.col#2-desktop-col-1",
+      "flex-layout.row#2-desktop-col-2"
     ]
   },
-  "menu-item#shop": {
+
+  "flex-layout.col#2-desktop-col-1": {
     "props": {
-      "id": "menu-item-shop",
+      "blockClass": "topbar"
+    },
+    "children": ["vtex.menu@2.x:menu#top-menu"]
+  },
+
+  "vtex.menu@2.x:menu#top-menu": {
+    "props": {
+      "blockClass": "topbar"
+    },
+    "children": ["menu-item#quem-somos", "menu-item#trocas-e-devolucoes"]
+  },
+  "menu-item#quem-somos": {
+    "props": {
+      "blockClass": "topbar",
+      "id": "menu-item#quem-somos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/quem-somos",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
+        "tagTitle": "Quem somos",
+        "text": "Quem somos"
       }
     }
   },
-  "vtex.menu@2.x:menu#institutional": {
-    "children": [
-      "menu-item#vtex-website"
-    ]
-  },
-  "menu-item#vtex-website": {
+
+  "menu-item#trocas-e-devolucoes": {
     "props": {
-      "id": "menu-item-vtex-website",
+      "blockClass": "topbar",
+      "id": "menu-item#trocas-e-devolucoes",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "http://vtex.com",
+        "type": "internal",
+        "href": "/trocas-e-devolucoes",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "Trocas e Devoluções",
+        "text": "Trocas e Devoluções"
       }
+    }
+  },
+
+  "flex-layout.row#2-desktop-col-2": {
+    "props": {
+      "blockClass": "topbar",
+      "colSizing": "auto"
+    },
+    "children": ["login", "minicart.v2"]
+  },
+
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "iconLabel": "Entre ou cadastre-se"
     }
   }
 }
